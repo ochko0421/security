@@ -1,0 +1,16 @@
+### 
+POST http://localhost:8090/student
+Content-Type: application/json
+Authent:Basic user1secret1
+
+{
+    "name": "Test",
+    "email": "test@gmail.com",
+    "grade": "05"
+}
+
+
+
+###
+get http://localhost:8090/students
+Authorization: Basic base64-user1-secret1
